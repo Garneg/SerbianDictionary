@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rečnik</string>
+    <string name="main_screen_title">Srpski Rečnik</string>
+    <string name="search_text_field_hint">Enter rec</string>
+</resources>

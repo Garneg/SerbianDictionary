@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Serbian Dictionary</string>
+    <string name="main_screen_title">Serbian Dictionary</string>
+    <string name="search_text_field_hint">Enter word</string>
+</resources>
