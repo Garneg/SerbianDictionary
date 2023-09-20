@@ -1,5 +1,6 @@
 package com.garnegsoft.serbiandictionary.ui.screens
 
+import android.view.inputmethod.InputMethodManager
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -39,13 +40,20 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.autofill.AutofillNode
+import androidx.compose.ui.autofill.AutofillType
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.LocalAutofill
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.garnegsoft.serbiandictionary.R
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.ktx.app
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -91,6 +99,7 @@ fun MainScreen(
 						.padding(start = 8.dp),
 					verticalAlignment = Alignment.CenterVertically
 				) {
+					
 					Box(Modifier.weight(1f)) {
 						if (textFieldValue.isEmpty()) {
 							Text(

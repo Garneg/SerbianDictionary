@@ -21,7 +21,11 @@ private val DarkColorScheme = darkColorScheme(
 	secondary = Color(0xFFDCF186),
 	tertiary = Color(0xFF9AAC50),
 	surface = Color(0xFF3D3F37),
-	background = Color(0xFF252523)
+	background = Color(0xFF252523),
+	onSurface = Color(0xFFF4F7EC),
+	onSurfaceVariant = Color(0xFFC1C5B6),
+	secondaryContainer = Color(0xFF31332C),
+	onSecondaryContainer = Color(0xFFE9ECE1)
 )
 
 private val LightColorScheme = lightColorScheme(
@@ -29,11 +33,13 @@ private val LightColorScheme = lightColorScheme(
 	secondary = Color(0xFFDCF186),
 	tertiary = Color(0xFFA3C90B),
 	background = Color(0xFFFCFFF2),
-	surface = Color(0xFFEFF5D2),
+	surface = Color(0xFFEDF5C9),
 	onSurface = Color(0xFF4A522D),
 	onSurfaceVariant = Color(0xFFBAC498),
-	secondaryContainer = Color(0xFFF2F7DB),
-	onSecondaryContainer = Color(0xFF4A522D)
+	secondaryContainer = Color(0xFFF0F5D7),
+	onSecondaryContainer = Color(0xFF4A522D),
+	outline = Color(0xD5697447),
+	outlineVariant = Color(0xCCAAB38F)
 	/* Other default colors to override
     background = Color(0xFFFFFBFE),
     surface = Color(0xFFFFFBFE),

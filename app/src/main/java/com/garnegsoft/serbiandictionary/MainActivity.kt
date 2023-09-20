@@ -24,14 +24,21 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
 import com.garnegsoft.serbiandictionary.ui.screens.MainScreen
 import com.garnegsoft.serbiandictionary.ui.theme.SerbianDictionaryTheme
+import com.google.firebase.database.ktx.database
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.Filter
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
+import kotlinx.coroutines.tasks.await
 
 class MainActivity : ComponentActivity() {
 	@OptIn(ExperimentalMaterial3Api::class)
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		WindowCompat.setDecorFitsSystemWindows(window, false)
-		
-		
+		Firebase.firestore.collection("dict01")
+			.document("stan")
+			
 		setContent {
 			SerbianDictionaryTheme {
 				// A surface container using the 'background' color from the theme
@@ -46,18 +53,7 @@ class MainActivity : ComponentActivity() {
 	}
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-	Text(
-		text = "Hello $name!",
-		modifier = modifier
-	)
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-	SerbianDictionaryTheme {
-		Greeting("Android")
-	}
-}
+data class Word(
+	val word: String,
+	val value: Int
+)

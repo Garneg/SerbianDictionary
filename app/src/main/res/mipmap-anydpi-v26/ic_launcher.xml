@@ -3,6 +3,6 @@
     <background>
         <color android:color="#FFddee99"/>
     </background>
-    <foreground android:drawable="@drawable/icon" />
-    <monochrome android:drawable="@drawable/icon" />
+    <foreground android:drawable="@drawable/icon_hard_ch" />
+    <monochrome android:drawable="@drawable/icon_hard_ch" />
 </adaptive-icon>
