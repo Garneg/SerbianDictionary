@@ -35,11 +35,13 @@ private val LightColorScheme = lightColorScheme(
 	background = Color(0xFFFCFFF2),
 	surface = Color(0xFFEDF5C9),
 	onSurface = Color(0xFF4A522D),
-	onSurfaceVariant = Color(0xFFBAC498),
+	onSurfaceVariant = Color(0xFF7B806B),
 	secondaryContainer = Color(0xFFF0F5D7),
 	onSecondaryContainer = Color(0xFF4A522D),
 	outline = Color(0xD5697447),
-	outlineVariant = Color(0xCCAAB38F)
+	outlineVariant = Color(0xCCAAB38F),
+	primaryContainer = Color(0xFFEDF3CE),
+	onPrimaryContainer = Color(0xFF454D21)
 	/* Other default colors to override
     background = Color(0xFFFFFBFE),
     surface = Color(0xFFFFFBFE),

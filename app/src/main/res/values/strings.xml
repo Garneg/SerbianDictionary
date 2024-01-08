@@ -2,4 +2,17 @@
     <string name="app_name">Serbian Dictionary</string>
     <string name="main_screen_title">Serbian Dictionary</string>
     <string name="search_text_field_hint">Enter word</string>
+    <string name="word_screen_meaning_label">Meaning</string>
+    <string name="word_screen_synonyms_label">Synonyms</string>
+    <string name="word_screen_examples_label">Examples</string>
+    <string name="word_class_noun">Noun</string>
+    <string name="word_class_verb">Verb</string>
+    <string name="word_class_adverb">Adverb</string>
+    <string name="word_class_pronoun">Pronoun</string>
+    <string name="word_class_adjective">Adjective</string>
+    <string name="word_class_preposition">Preposition</string>
+    <string name="word_class_conjunction">Conjunction</string>
+    <string name="word_class_interjection">Interjection</string>
+    <string name="word_class_particle">Particle</string>
+    <string name="word_class_numeral">Numeral</string>
 </resources>

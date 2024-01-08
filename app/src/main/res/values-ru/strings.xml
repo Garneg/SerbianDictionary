@@ -3,4 +3,17 @@
     <string name="app_name">Сербский словарь</string>
     <string name="main_screen_title">Сербский словарь</string>
     <string name="search_text_field_hint">Введите слово</string>
+    <string name="word_screen_meaning_label">Значение</string>
+    <string name="word_screen_synonyms_label">Синонимы</string>
+    <string name="word_screen_examples_label">Примеры</string>
+    <string name="word_class_noun">Существительное</string>
+    <string name="word_class_verb">Глагол</string>
+    <string name="word_class_adverb">Наречие</string>
+    <string name="word_class_pronoun">Местоимение</string>
+    <string name="word_class_adjective">Прилагательное</string>
+    <string name="word_class_preposition">Предлог</string>
+    <string name="word_class_conjunction">Союз</string>
+    <string name="word_class_interjection">Междометие</string>
+    <string name="word_class_particle">Частица</string>
+    <string name="word_class_numeral">Числительное</string>
 </resources>

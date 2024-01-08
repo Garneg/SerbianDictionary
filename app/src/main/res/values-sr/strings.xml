@@ -2,5 +2,18 @@
 <resources>
     <string name="app_name">Rečnik</string>
     <string name="main_screen_title">Srpski Rečnik</string>
-    <string name="search_text_field_hint">Enter rec</string>
+    <string name="search_text_field_hint">Unesite reč</string>
+    <string name="word_screen_meaning_label">Značenje</string>
+    <string name="word_screen_synonyms_label">Sinonimi</string>
+    <string name="word_screen_examples_label">Primeri</string>
+    <string name="word_class_noun">Imenica</string>
+    <string name="word_class_verb">Glagol</string>
+    <string name="word_class_adverb">Prilog</string>
+    <string name="word_class_pronoun">Zamenica</string>
+    <string name="word_class_adjective">Pridev</string>
+    <string name="word_class_preposition">Predlog</string>
+    <string name="word_class_conjunction">Veznik</string>
+    <string name="word_class_interjection">Uzvik</string>
+    <string name="word_class_particle">Rečca</string>
+    <string name="word_class_numeral">Brojevi</string>
 </resources>
